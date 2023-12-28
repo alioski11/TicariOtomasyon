@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="05a1d2673ebc4ec799f78dc24df93000" Name="Diagram1">
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tbladmin" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblcari" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tbldepartman" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tbldugun" Width="1.5" PointX="5.875" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblfaturabilgi" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblfaturadetay" Width="1.5" PointX="10.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblgider" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblhatalıurun" Width="1.5" PointX="5.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblilceler" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tbliller" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblkategori" Width="1.5" PointX="5.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblnotlarım" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblpersonel" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblsatılanurun" Width="1.5" PointX="7.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblsiparis" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tbltakip" Width="1.5" PointX="10.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblurun" Width="1.5" PointX="8" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.Tblurunkabul" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_Tblfaturabilgi_Tblcari" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_Tblurunkabul_Tblcari" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_Tblpersonel_Tbldepartman" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_Tblfaturabilgi_Tblpersonel" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_Tblfaturadetay_Tblfaturabilgi" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_Tblilceler_Tbliller" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_Tblurun_Tblkategori" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_Tblurunkabul_Tblpersonel" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_Tbltakip_Tblurun" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
